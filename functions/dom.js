@@ -11,5 +11,5 @@ export const createElement = (tagname, attributes) => {
       element.setAttribute(attribute, value);
     }
   }
-  return element;
+  return element
 };
